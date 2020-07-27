@@ -11,7 +11,7 @@ Basic features are implemented, which means that you are able to post article an
 - User center
 - Change avatar by upload or Gravatar
 - Check user list and configure authority **(Only admin user can access)**
-- Post articles
+- Post articles  **(Only admin user can access)**
 
 ---
 More details and Chinese document are writing...

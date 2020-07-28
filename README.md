@@ -127,8 +127,8 @@ git checkout {branch/tags name}
 - feat(user.php / usergravatar.php / avatarupload.php): 新增 自定义头像或使用 Gravatar
 - feat(admin.php / userlist.php):  新增 查看用户列表及修改权限 **(仅管理员账户可用)**
 - feat(admin.php / postarticle.php): 新增 发布文章 **(仅管理员账户可用)**
-- docs(test.md): 移除测试用文件
-- docs(README.md): 发布英文版本 README 文档
+- docs(test.md): 移除 测试用文件
+- docs(README.md): 发布 英文版本 README 文档
 - docs(LICENSE): 将 MIT 开源许可证更换为 GPL v3.0 开源许可证
 - docs(README.md): 纠正 README.md 文档中的 Markdown 语法错误
 - docs(README.md): 完善 README.md 文档

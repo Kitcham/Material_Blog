@@ -2,20 +2,18 @@
 
 ## Table of Contents 目录
 
-- [Introduction 简介](#introduction)
-- [Demo 演示](#demo)
-- [Badge 徽章](#badge)
-- [Install 安装方法](#install)
-	- [Branch infomation 分支介绍](#branch-infomation)
-    - [Use git to install 使用 git 安装](#use-git-to-install)
-- [Usage 使用方法](#usage)
-- [Finished modules 已实现的模块](#finished-modules)
-- [Todo 待实现](#todo)
-- [Change Log 更新日志](#changelog)
-- [Maintainers](#maintainers)
-- [Contributing 贡献](#contributing)
-- [Contributors 贡献者](#contributors)
-- [License 许可证](#license)
+- [Introduction 简介](#introduction-简介)
+- [Demo 演示](#demo-演示)
+- [Badge 徽章](#badge-徽章)
+- [Install 安装方法](#install-安装方法)
+- [Usage 使用方法](#usage-使用方法)
+- [Finished modules 已实现功能](#finished-modules-已实现功能)
+- [Todo 待实现](#todo-待实现)
+- [Change Log 更新日志](#changelog-更新日志)
+- [Maintainers 维护者](#maintainers-维护者)
+- [Contributing 贡献](#contributing-贡献)
+- [Contributors 贡献者](#contributors-贡献者)
+- [License 许可证](#license-许可证)
 
 ## Introduction 简介
 
@@ -85,7 +83,7 @@ git checkout {branch/tags name}
 4. You can login as admin with `username: admin` and `password: admin`. 你可以使用默认的管理员账户登录， `用户名：admin`，`密码：admin`。 
 5. Enjoy yourself. 开始网上冲浪吧。
 
-## Finished modules 已实现的模块
+## Finished modules 已实现功能
 
 - Articles card flow with lively visual language 视觉化语言的文章瀑布流
 - View articles in details 阅读文章详情

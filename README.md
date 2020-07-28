@@ -117,6 +117,11 @@ git checkout {branch/tags name}
 - docs(README.md): fix the markdown syntax error
 - docs(README.md): update README.md
 - feat(all): release Material-Blog verison1.0.0
+- fix(uploadtest.php): remove useless upload test file
+- fix(img): remain default avatar
+- feat(admin.js): add javascript in admin page
+- docs(README.md): fix unsupported rounded avatar
+- docs(README.md): update README.md and add Chinese version
 
 ##### 中文
 - feat(index.php): 新增 首页视觉化文章瀑布流
@@ -133,6 +138,11 @@ git checkout {branch/tags name}
 - docs(README.md): 纠正 README.md 文档中的 Markdown 语法错误
 - docs(README.md): 完善 README.md 文档
 - feat(all): 发布 Material-Blog ver1.0.0 版本
+- fix(uploadtest.php): 移除 测试用文件
+- fix(img): 保留 默认头像并移除其余头像
+- feat(admin.js): 新增 admin 页面的 JavaScript
+- docs(README.md): 修复 不支持的圆形头像
+- docs(README.md): 完善 README.md 文档
 
 ## Maintainers
 

@@ -117,7 +117,7 @@ Before you start your contributing, please read the Contributing Rules Wiki firs
 
 ## Contributors 贡献者
 
-<a href="https://github.com/Kitcham"><img style="width:80px; height:80px; border-radius:50%;margin:10px;" src="https://cn.gravatar.com/avatar/9b747627b8927f7f76540bf988f5ce26?&s=500"></a>
+<a href="https://github.com/Kitcham"><img style="width:80px; height:80px; border-radius:50%;margin:10px;" src="https://cn.gravatar.com/avatar/9b747627b8927f7f76540bf988f5ce26"></a>
 
 ## License 许可证
 

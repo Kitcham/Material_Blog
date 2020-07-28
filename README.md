@@ -7,7 +7,7 @@
 - [Badge 徽章](#badge-徽章)
 - [Install 安装方法](#install-安装方法)
 - [Usage 使用方法](#usage-使用方法)
-- [Finished modules 已实现功能](#finished-已实现的模块)
+- [Finished 已实现功能](#finished-已实现的模块)
 - [Todo 待实现](#todo-待实现)
 - [Changelog 更新日志](#changelog-更新日志)
 - [Maintainers 维护者](#maintainers-维护者)
@@ -41,7 +41,7 @@ Buliding....
 
 ## Badge 徽章
 
-Here is some badges for fun! Travis-Ci is on always-pass status, because it is unnecessary in this time.
+Here are some badges for fun! Travis-Ci is on always-pass status, because it is unnecessary in this time.
 
 一些好玩的徽章，仅供娱乐！ 因暂未需要进行大规模的持续协作及集成，Travis-Ci 设定为常通过状态。
 
@@ -144,7 +144,7 @@ git checkout {branch/tags name}
 - docs(README.md): 修复 不支持的圆形头像
 - docs(README.md): 完善 README.md 文档
 
-## Maintainers
+## Maintainers 维护者
 
 [@Kitcham](https://github.com/Kitcham).
 

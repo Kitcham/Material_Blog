@@ -77,7 +77,7 @@ The project includes master and canary branch, please choose which you want.
 > Should be the most stable. Recommended for most users.  
 > 最稳定的版本，适合绝大多数用户。
 
-#### [Download canary version 下载 canary 版本](https://github.com/viosey/hexo-theme-material/archive/canary.zip)
+#### [Download canary version 下载 canary 版本](https://github.com/Kitcham/Material_Blog/tree/canary)
 
 > Maybe unstable, but includes latest features. Recommended for advanced users and developers.  
 > 包含最新的、尚在开发中的特性，但可能不稳定，适合进阶用户及开发者。

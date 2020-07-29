@@ -16,15 +16,16 @@ $target_name = "img/avatar/" . md5($email) .  ".jpg";
 
 if(file_exists($target_name)||!file_exists($source_name)){
  echo "目标文件已经存在或者原始文件不存在。";
-}else{
+}
+else{
  @copy($source_name,$target_name)?'成功':'失败';
 }
 
 $pdo = new PDO(DSN,ROOT,PASSWORD);
 //插入用户信息sql
-$sql = "insert into user(username,password,isadmin,email,avatar) values('{$username}','{$pwd}','0','{$email}','{$target_name}')";
+$sql = "INSERT INTO user(username,password,isadmin,email,avatar) VALUES('{$username}','{$pwd}','0','{$email}','{$target_name}')";
 //重名检测
-$selectsql="select username from user where username='{$username}'";
+$selectsql="SELECT username FROM user WHERE username='{$username}'";
 $smt = $pdo->query($selectsql);
 $row = $smt->fetch(PDO::FETCH_ASSOC);
 //判断重名

@@ -21,10 +21,10 @@ if(file_exists($target_name)||!file_exists($source_name)){
 }
 
 //插入用户信息sql
-$sql = "insert into user(username,password,isadmin,email,avatar) values('{$username}','{$pwd}','0','{$email}','{$target_name}')";
+$sql = "INSERT INTO user(username,password,isadmin,email,avatar) VALUES('{$username}','{$pwd}','0','{$email}','{$target_name}')";
 //$sql = "insert into user(username,password,isadmin,email,avatar) values('{$username}','{$pwd}','0','{$email}','img/avatar/default.jpg')";
 //判断重名
-$selectsql="select username,isadmin from user where username='{$username}'";
+$selectsql="SELECT username,isadmin FROM user WHERE username='{$username}'";
 $pdo->exec("set names utf8");
 $smt = $pdo->query($selectsql);
 $row=$smt->fetch(PDO::FETCH_ASSOC);

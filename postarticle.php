@@ -19,11 +19,6 @@
 	<!--头部 end-->
 	<div class="mdui-container">
 		
-		
-		
-	
-		
-		
 		<!--侧边栏 -->
 		<div class="mdui-drawer" id="main-drawer">
   			<ul class="mdui-list">
@@ -292,7 +287,7 @@
 					</div>
 					<div class="mdui-textfield mdui-textfield-floating-label">
   						<label class="mdui-textfield-label">Message</label>
-  						<button type="submit" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple change" mdui-dialog="{target: '#fixDialog'}">确认发布</button>
+  						<button type="submit" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple change">确认发布</button>
 					</div>
 					</form>
 			</div>

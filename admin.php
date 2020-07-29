@@ -19,15 +19,9 @@
 	<!--头部 end-->
 	<div class="mdui-container">
 		
-		
-		
-	
-		
-		
 		<!--侧边栏 -->
 		<div class="mdui-drawer" id="main-drawer">
   			<ul class="mdui-list">
-				
 				<?php
 				session_start();
 				if(($_SESSION['username']) && ($_SESSION['isadmin']=='1')){
@@ -86,7 +80,6 @@
 					echo "<script>location='index.php'</script>";
 				}
 				?>
-
 				
 				<li class="mdui-list-item mdui-ripple" onclick="window.open('userlist.php', '_self')">
       			<i class="mdui-list-item-icon mdui-icon material-icons" onclick="window.open('userlist.php', '_self')">people</i>
@@ -116,7 +109,7 @@
 				</li>
     
   			</ul>
-		</div>
+	</div>
 	
 	
 	
@@ -126,8 +119,7 @@
 			<div class="mdui-typo-display-title-opacity">登录</mark></div>
 			<form action="login.php" method="post">	
       			<!-- 浮动标签、多行文本框 -->
-  			<div class="mdui-textfield mdui-textfield-floating-label">
-				
+  			<div class="mdui-textfield mdui-textfield-floating-label">	
     			<i class="mdui-icon material-icons">account_circle</i>
     			<label class="mdui-textfield-label">用户名</label>
     			<input class="mdui-textfield-input"  class="search-input" name="uname" required></input>
@@ -138,7 +130,6 @@
     			<label class="mdui-textfield-label">密码</label>
     			<input class="mdui-textfield-input" type="password" class="search-input" name="password" required></input>
   			</div>
-			
     		<div class="mdui-col">
       			<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">Login</button>	
     		</div>
@@ -152,7 +143,6 @@
 			<form action="register.php" method="post">	
       			<!-- 浮动标签、多行文本框 -->
   			<div class="mdui-textfield mdui-textfield-floating-label">
-				
     			<i class="mdui-icon material-icons">account_circle</i>
     			<label class="mdui-textfield-label">用户名</label>
     			<input class="mdui-textfield-input"  class="search-input" name="uname" required></input>
@@ -170,10 +160,8 @@
     			<label class="mdui-textfield-label">密码</label>
     			<input class="mdui-textfield-input" type="password" class="search-input" name="password" required></input>
   			</div>
-			
     		<div class="mdui-col">
       			<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">Register</button>
-    		
     		</div>
 			</form>
   		</div>
@@ -215,8 +203,7 @@
 			<!--<a href="#example4-tab1" class="mdui-ripple">添加用户</a> -->
 			<form action="add.php" method="post">	
       			<!-- 浮动标签、多行文本框 -->
-  			<div class="mdui-textfield mdui-textfield-floating-label">
-				
+  			<div class="mdui-textfield mdui-textfield-floating-label">			
     			<i class="mdui-icon material-icons">account_circle</i>
     			<label class="mdui-textfield-label">用户名</label>
     			<input class="mdui-textfield-input"  class="search-input" name="uname" required></input>
@@ -234,8 +221,7 @@
     			<i class="mdui-icon material-icons">lock</i>
     			<label class="mdui-textfield-label">密码</label>
     			<input class="mdui-textfield-input" type="password" class="search-input" name="password" required></input>
-  			</div>
-			
+  			</div>	
     		<div class="mdui-col">
       			<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">确认添加</button>
     		
@@ -243,8 +229,6 @@
 			</form>
   		</div>
     </div>
-		
-	
 			</br></br></br>
 			<?php
 			session_start();
@@ -272,9 +256,6 @@
 	
 			
 		<!--文章内容-->
-			
-			
-		
 		<div style="clear:both"></div>	
 	</div>
 		

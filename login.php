@@ -5,7 +5,7 @@ include 'dbconfig.php';
 $username=$_POST['uname'];
 $pwd=$_POST['password'];
 $pdo = new PDO(DSN,ROOT,PASSWORD);
-$sql = "select id,username,isadmin,avatar,email from user where username='{$username}' and password='{$pwd}'";// and isadmin=1 管理员登录
+$sql = "SELECT id, username, isadmin, avatar, email FROM user WHERE username='{$username}' AND password='{$pwd}'";// and isadmin=1 管理员登录
 $smt = $pdo->prepare($sql);
 $smt->execute();
 $rows= $smt->fetch();

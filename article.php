@@ -12,7 +12,7 @@ $title = $_POST['title'];
 $content = $_POST['content'];
 $autho = $_SESSION['username'];
 $email = $_SESSION['email'];
-$sql = "insert into article(title,content,addtime,autho,email) values('{$title}','{$content}',now(),'{$autho}','{$email}')";
+$sql = "INSERT INTO article(title,content,addtime,autho,email) VALUES('{$title}','{$content}',now(),'{$autho}','{$email}')";
 if($pdo->exec($sql)){
 	echo "<script>location='admin.php'</script>";
 }else{

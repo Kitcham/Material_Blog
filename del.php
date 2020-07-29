@@ -10,7 +10,7 @@ include 'dbconfig.php';
 $pdo = new PDO(DSN,ROOT,PASSWORD);
 //删除用户
 $id=$_GET['id'];
-$sql="delete from user where id='{$id}'";
+$sql="DELETE FROM user WHERE id='{$id}'";
 $r=$pdo->exec($sql);
 if($r){
     echo "1";

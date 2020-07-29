@@ -11,8 +11,8 @@ include 'dbconfig.php';
 $username=$_GET['uname'];
 echo $username;
 $pdo = new PDO(DSN,ROOT,PASSWORD);
-$selectsql="select username from user where username='{$username}'";
-$sql = "update user set isadmin='1' where username='{$username}'";
+$selectsql="SELECT username FROM user WHERE username='{$username}'";
+$sql = "UPDATE user SET isadmin='1' WHERE username='{$username}'";
 $smt = $pdo->query($selectsql);
 $row = $smt->fetch();
 if(!$row['username'] || $row['username']==""){

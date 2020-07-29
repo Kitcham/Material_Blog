@@ -107,7 +107,7 @@ git checkout {branch/tags name}
 - Check user list and configure authority **(Only admin user can access)**  查看用户列表及修改权限 **(仅管理员账户可用)**
 - Post articles **(Only admin user can access)**  发表文章 **(仅管理员账户可用)**
 
-## Todo 待实现
+## Todo 待实现功能
 
 - [x] Add PHP staticize generation(add at next version) 增加 PHP 静态化生成器（于下一版本发布）
 - [ ] Add Markdown Editor Markdown 增加 Markdwon 编辑器

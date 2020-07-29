@@ -92,8 +92,8 @@ git checkout {branch/tags name}
 
 ## Usage 使用方法
 1. Finish install step above. 完成上述安装步骤。
-2. Import `blogdb.sql` or create MySQL database according to `blogdb.sql`. 导入 `blogdb.sql` 或依照表结构新建数据库及数据表。
-3. Set your MySQL configuration and database name in the `dbconfig.php`. 在 `dbconfig.php` 中配置好你的 MySQL 数据库信息。
+2. Import `material_blog.sql` or create MySQL database according to `material_blog.sql`. 导入 `material_blog.sql` 或依照表结构新建 MySQL 数据库及数据表。
+3. Set your MySQL configuration and database name in the `dbconfig.php`. 在 `dbconfig.php` 文件中配置好你的 MySQL 数据库信息。
 4. You can login as admin with `username: admin` and `password: admin`. 你可以使用默认的管理员账户登录（ `用户名：admin`，`密码：admin`）。 
 5. Enjoy yourself. 开始网上冲浪吧。
 

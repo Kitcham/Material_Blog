@@ -7,8 +7,8 @@
 - [Badge 徽章](#badge-徽章)
 - [Install 安装方法](#install-安装方法)
 - [Usage 使用方法](#usage-使用方法)
-- [Finished 已实现功能](#finished-已实现的模块)
-- [Todo 待实现](#todo-待实现)
+- [Finished 已实现功能](#finished-已实现功能)
+- [Todo 待实现功能](#todo-待实现功能)
 - [Changelog 更新日志](#changelog-更新日志)
 - [Maintainers 维护者](#maintainers-维护者)
 - [Contributing 贡献](#contributing-贡献)
@@ -35,9 +35,23 @@ Please feel free to enjoy the blog.
 
 ## Demo 演示
 
-Buliding....
+- Index 首页
+![localhost_blog_index.png](https://i.loli.net/2020/07/29/Sze3gyJ7kxsAwrO.png)
 
-构建中...
+- Article in details 文章详情
+![localhost_blog_articledetails.png](https://i.loli.net/2020/07/29/AR7MF5Tf6qSutmr.png)
+
+- Search 文章检索
+![localhost_blog_selectarticle.png](https://i.loli.net/2020/07/29/3bukKf4wjJEZt8h.png)
+
+- User center 用户中心
+![localhost_blog_user.png](https://i.loli.net/2020/07/29/Qz1FYE2dwmU3B7O.png)
+
+- Admin center 管理中心
+![localhost_blog_admin.png](https://i.loli.net/2020/07/29/uRx2573oEz8k1ti.png)
+
+- Check articles 文章列表
+![localhost_blog_checkarticle.png](https://i.loli.net/2020/07/29/sEI7j8rlRcFCkxm.png)
 
 ## Badge 徽章
 
@@ -160,7 +174,7 @@ Before you start your contributing, please read the Contributing Rules Wiki firs
 
 ## Contributors 贡献者
 
-<a href="https://github.com/Kitcham"><img style="width:80px; height:80px; border-radius:50%;margin:10px;" src="https://cn.gravatar.com/avatar/9b747627b8927f7f76540bf988f5ce26"></a>
+<a href="https://github.com/Kitcham"><img style="width:80px; height:80px; border-radius:50%;margin:10px;" src="https://cn.gravatar.com/avatar/9b747627b8927f7f76540bf988f5ce26?&s=200"></a>
 
 ## License 许可证
 

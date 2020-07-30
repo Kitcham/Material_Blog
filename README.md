@@ -115,48 +115,9 @@ git checkout {branch/tags name}
 
 ## Change Log 更新日志
 
-### Ver1.0.0 (Updated on 2020.07.28)
-##### ENGLISH
-- feat(index.php): add articles card flow with lively visual language homepage
-- feat(index.php / selectarticle.php): add article search by keywords page
-- feat(index.php / articledetails): add view articles in details page
-- feat(index.php / register.php / login.php): add regist and login function
-- feat(user.php): add user center page
-- feat(user.php / usergravatar.php / avatarupload.php): add change avatar by upload or Gravatar page
-- feat(admin.php / userlist.php):  add check user list and configure authority **(Only admin user can access)**
-- feat(admin.php / postarticle.php): add post articles page **(Only admin user can access)**
-- docs(test.md): remove test files
-- docs(README.md): release English version document
-- docs(LICENSE): change license from MIT to GPL v3.0
-- docs(README.md): fix the markdown syntax error
-- docs(README.md): update README.md
-- feat(all): release Material-Blog verison1.0.0
-- fix(uploadtest.php): remove useless upload test file
-- fix(img): remain default avatar
-- feat(admin.js): add javascript in admin page
-- docs(README.md): fix unsupported rounded avatar
-- docs(README.md): update README.md and add Chinese version
+Please read [change log](https://github.com/Kitcham/Material_Blog/wiki/Changelog) here.
 
-##### 中文
-- feat(index.php): 新增 首页视觉化文章瀑布流
-- feat(index.php / selectarticle.php): 新增 按关键词检索文章
-- feat(index.php / articledetails): 新增 文章详情页面
-- feat(index.php / register.php / login.php): 新增 注册及登录
-- feat(user.php): 新增 用户中心
-- feat(user.php / usergravatar.php / avatarupload.php): 新增 自定义头像或使用 Gravatar
-- feat(admin.php / userlist.php):  新增 查看用户列表及修改权限 **(仅管理员账户可用)**
-- feat(admin.php / postarticle.php): 新增 发布文章 **(仅管理员账户可用)**
-- docs(test.md): 移除 测试用文件
-- docs(README.md): 发布 英文版本 README 文档
-- docs(LICENSE): 将 MIT 开源许可证更换为 GPL v3.0 开源许可证
-- docs(README.md): 纠正 README.md 文档中的 Markdown 语法错误
-- docs(README.md): 完善 README.md 文档
-- feat(all): 发布 Material-Blog ver1.0.0 版本
-- fix(uploadtest.php): 移除 测试用文件
-- fix(img): 保留 默认头像并移除其余头像
-- feat(admin.js): 新增 admin 页面的 JavaScript
-- docs(README.md): 修复 不支持的圆形头像
-- docs(README.md): 完善 README.md 文档
+请点击查看[更新日志](https://github.com/Kitcham/Material_Blog/wiki/Changelog)。
 
 ## Maintainers 维护者
 

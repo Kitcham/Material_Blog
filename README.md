@@ -115,9 +115,9 @@ git checkout {branch/tags name}
 
 ## Change Log 更新日志
 
-Please read [change log](https://github.com/Kitcham/Material_Blog/wiki/Changelog) here.
+Please read [change log](https://github.com/Kitcham/Material_Blog/wiki/Change-log) here.
 
-请点击查看[更新日志](https://github.com/Kitcham/Material_Blog/wiki/Changelog)。
+请点击查看[更新日志](https://github.com/Kitcham/Material_Blog/wiki/Change-log)。
 
 ## Maintainers 维护者
 

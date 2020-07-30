@@ -19,11 +19,6 @@
 	<!--头部 end-->
 	<div class="mdui-container">
 		
-		
-		
-	
-		
-		
 		<!--侧边栏 -->
 		<div class="mdui-drawer" id="main-drawer">
   			<ul class="mdui-list">

@@ -5,7 +5,7 @@ header("content-type:text/html;charset=utf-8");
 	$target_name = $_SESSION['avatar'];
 	$email = md5($_SESSION['email']);
 	//Gravatarapi，对邮箱进行md5运算
-	file_put_contents("img/avatar/$email.jpg",file_get_contents("http://cn.gravatar.com/avatar/$email"));
+	file_put_contents("img/avatar/$email.jpg",file_get_contents("http://cn.gravatar.com/avatar/$email?&s=200"));
 	///$source_name = "img/avatar/default.jpg";
 	//$target_name = "image/bg1.jpg";
 	echo "$email";

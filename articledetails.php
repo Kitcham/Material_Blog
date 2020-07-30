@@ -3,7 +3,7 @@ header("content-type:text/html;charset=utf-8");
 include 'dbconfig.php';
 $articleid = $_GET['id'];
 $pdo = new PDO(DSN,ROOT,PASSWORD);
-$sql = "select * from article where id='{$articleid}'";
+$sql = "SELECT * FROM article WHERE id='{$articleid}'";
 $smt = $pdo->query($sql);
 $row = $smt->fetch(PDO::FETCH_ASSOC);
 ?>
@@ -32,14 +32,12 @@ $row = $smt->fetch(PDO::FETCH_ASSOC);
     			<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}" id="toggle"><i class="mdui-icon material-icons">menu</i></span>
     			<a href="index.php" class="mdui-typo-headline mdui-hidden-xs">My Blog</a>
    			 <div class="mdui-toolbar-spacer"></div>
-    		 <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
-						
-  						<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
-						<form action="selectarticle.php" method="GET" class="searchform">
-  						<input class="search-input" type="text" name="search" placeholder="输入关键字"/>
-						
-						<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">done</i></button>
-  						</form>
+    		 <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">			
+  				<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+				<form action="selectarticle.php" method="GET" class="searchform">
+  					<input class="search-input" type="text" name="search" placeholder="输入关键字"/>
+					<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">done</i></button>
+  				</form>
 			</div>
   			</div>
 		</header>
@@ -47,12 +45,7 @@ $row = $smt->fetch(PDO::FETCH_ASSOC);
 		
 		<!--文章详情-->
 <div class="mdui-container">
-		
-		
-		<!--头部-->
-	
-		
-		
+			
 		<!--侧边栏 -->
 		<div class="mdui-drawer" id="main-drawer">
   			<ul class="mdui-list">
@@ -225,10 +218,7 @@ $row = $smt->fetch(PDO::FETCH_ASSOC);
 	</div>
 
 	</div>
-<script>
-if ('serviceWorker' in navigator) {navigator.serviceWorker.register('sw.js');
-}
-</script>
+
 	
 </body>
 <script src="js/jquery.min.js"></script>

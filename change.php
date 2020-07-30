@@ -10,10 +10,10 @@ $pwd=$_POST['password'];
 
 $pdo = new PDO(DSN,ROOT,PASSWORD);
 //$selectsql="select password from user where id='{$uid}'";
-$selectsql="select password from user where username='{$username}'";
+$selectsql="SELECT password FROM user WHERE username='{$username}'";
 //修改用户sql
 //$sql = "update user set password='{$pwd}',isadmin='{$isadmin}' where id='{$uname}'";
-$sql = "update user set password='{$pwd}' where username='{$username}'";
+$sql = "UPDATE user SET password='{$pwd}' WHERE username='{$username}'";
 $smt=$pdo->query($selectsql);
 $row=$smt->fetch();
 if($row['password']===$pwd){

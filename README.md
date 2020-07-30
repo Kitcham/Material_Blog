@@ -7,8 +7,8 @@
 - [Badge 徽章](#badge-徽章)
 - [Install 安装方法](#install-安装方法)
 - [Usage 使用方法](#usage-使用方法)
-- [Finished 已实现功能](#finished-已实现的模块)
-- [Todo 待实现](#todo-待实现)
+- [Finished 已实现功能](#finished-已实现功能)
+- [Todo 待实现功能](#todo-待实现功能)
 - [Changelog 更新日志](#changelog-更新日志)
 - [Maintainers 维护者](#maintainers-维护者)
 - [Contributing 贡献](#contributing-贡献)
@@ -35,9 +35,23 @@ Please feel free to enjoy the blog.
 
 ## Demo 演示
 
-Buliding....
+- Index 首页
+![localhost_blog_index.png](https://i.loli.net/2020/07/29/Sze3gyJ7kxsAwrO.png)
 
-构建中...
+- Article in details 文章详情
+![localhost_blog_articledetails.png](https://i.loli.net/2020/07/29/AR7MF5Tf6qSutmr.png)
+
+- Search 文章检索
+![localhost_blog_selectarticle.png](https://i.loli.net/2020/07/29/3bukKf4wjJEZt8h.png)
+
+- User center 用户中心
+![localhost_blog_user.png](https://i.loli.net/2020/07/29/Qz1FYE2dwmU3B7O.png)
+
+- Admin center 管理中心
+![localhost_blog_admin.png](https://i.loli.net/2020/07/29/uRx2573oEz8k1ti.png)
+
+- Check articles 文章列表
+![localhost_blog_checkarticle.png](https://i.loli.net/2020/07/29/sEI7j8rlRcFCkxm.png)
 
 ## Badge 徽章
 
@@ -63,7 +77,7 @@ The project includes master and canary branch, please choose which you want.
 > Should be the most stable. Recommended for most users.  
 > 最稳定的版本，适合绝大多数用户。
 
-#### [Downliad canary version 下载 canary 版本](https://github.com/viosey/hexo-theme-material/archive/canary.zip)
+#### [Download canary version 下载 canary 版本](https://github.com/Kitcham/Material_Blog/tree/canary)
 
 > Maybe unstable, but includes latest features. Recommended for advanced users and developers.  
 > 包含最新的、尚在开发中的特性，但可能不稳定，适合进阶用户及开发者。
@@ -78,8 +92,8 @@ git checkout {branch/tags name}
 
 ## Usage 使用方法
 1. Finish install step above. 完成上述安装步骤。
-2. Import `blogdb.sql` or create MySQL database according to `blogdb.sql`. 导入 `blogdb.sql` 或依照表结构新建数据库及数据表。
-3. Set your MySQL configuration and database name in the `dbconfig.php`. 在 `dbconfig.php` 中配置好你的 MySQL 数据库信息。
+2. Import `material_blog.sql` in `mysqlDump` or create MySQL database according to `material_blog.sql`. 导入 `mysqlDump` 目录下的 `material_blog.sql` 文件或依照表结构新建 MySQL 数据库及数据表。
+3. Set your MySQL configuration and database name in the `dbconfig.php`. 在 `dbconfig.php` 文件中配置好你的 MySQL 数据库信息。
 4. You can login as admin with `username: admin` and `password: admin`. 你可以使用默认的管理员账户登录（ `用户名：admin`，`密码：admin`）。 
 5. Enjoy yourself. 开始网上冲浪吧。
 
@@ -93,7 +107,7 @@ git checkout {branch/tags name}
 - Check user list and configure authority **(Only admin user can access)**  查看用户列表及修改权限 **(仅管理员账户可用)**
 - Post articles **(Only admin user can access)**  发表文章 **(仅管理员账户可用)**
 
-## Todo 待实现
+## Todo 待实现功能
 
 - [x] Add PHP staticize generation(add at next version) 增加 PHP 静态化生成器（于下一版本发布）
 - [ ] Add Markdown Editor Markdown 增加 Markdwon 编辑器
@@ -101,48 +115,9 @@ git checkout {branch/tags name}
 
 ## Change Log 更新日志
 
-### Ver1.0.0 (Updated on 2020.07.28)
-##### ENGLISH
-- feat(index.php): add articles card flow with lively visual language homepage
-- feat(index.php / selectarticle.php): add article search by keywords page
-- feat(index.php / articledetails): add view articles in details page
-- feat(index.php / register.php / login.php): add regist and login function
-- feat(user.php): add user center page
-- feat(user.php / usergravatar.php / avatarupload.php): add change avatar by upload or Gravatar page
-- feat(admin.php / userlist.php):  add check user list and configure authority **(Only admin user can access)**
-- feat(admin.php / postarticle.php): add post articles page **(Only admin user can access)**
-- docs(test.md): remove test files
-- docs(README.md): release English version document
-- docs(LICENSE): change license from MIT to GPL v3.0
-- docs(README.md): fix the markdown syntax error
-- docs(README.md): update README.md
-- feat(all): release Material-Blog verison1.0.0
-- fix(uploadtest.php): remove useless upload test file
-- fix(img): remain default avatar
-- feat(admin.js): add javascript in admin page
-- docs(README.md): fix unsupported rounded avatar
-- docs(README.md): update README.md and add Chinese version
+Please read [change log](https://github.com/Kitcham/Material_Blog/wiki/Change-log) here.
 
-##### 中文
-- feat(index.php): 新增 首页视觉化文章瀑布流
-- feat(index.php / selectarticle.php): 新增 按关键词检索文章
-- feat(index.php / articledetails): 新增 文章详情页面
-- feat(index.php / register.php / login.php): 新增 注册及登录
-- feat(user.php): 新增 用户中心
-- feat(user.php / usergravatar.php / avatarupload.php): 新增 自定义头像或使用 Gravatar
-- feat(admin.php / userlist.php):  新增 查看用户列表及修改权限 **(仅管理员账户可用)**
-- feat(admin.php / postarticle.php): 新增 发布文章 **(仅管理员账户可用)**
-- docs(test.md): 移除 测试用文件
-- docs(README.md): 发布 英文版本 README 文档
-- docs(LICENSE): 将 MIT 开源许可证更换为 GPL v3.0 开源许可证
-- docs(README.md): 纠正 README.md 文档中的 Markdown 语法错误
-- docs(README.md): 完善 README.md 文档
-- feat(all): 发布 Material-Blog ver1.0.0 版本
-- fix(uploadtest.php): 移除 测试用文件
-- fix(img): 保留 默认头像并移除其余头像
-- feat(admin.js): 新增 admin 页面的 JavaScript
-- docs(README.md): 修复 不支持的圆形头像
-- docs(README.md): 完善 README.md 文档
+请点击查看[更新日志](https://github.com/Kitcham/Material_Blog/wiki/Change-log)。
 
 ## Maintainers 维护者
 
@@ -160,7 +135,7 @@ Before you start your contributing, please read the Contributing Rules Wiki firs
 
 ## Contributors 贡献者
 
-<a href="https://github.com/Kitcham"><img style="width:80px; height:80px; border-radius:50%;margin:10px;" src="https://cn.gravatar.com/avatar/9b747627b8927f7f76540bf988f5ce26"></a>
+<a href="https://github.com/Kitcham"><img style="width:80px; height:80px; border-radius:50%;margin:10px;" src="https://cn.gravatar.com/avatar/9b747627b8927f7f76540bf988f5ce26?&s=200"></a>
 
 ## License 许可证
 

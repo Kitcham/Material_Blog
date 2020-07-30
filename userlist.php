@@ -273,7 +273,7 @@
 				include 'dbconfig.php';
 				//链接数据库
 				$pdo = new PDO(DSN,ROOT,PASSWORD);
-				$sql = "select id,username,password,isadmin from user order by id";
+				$sql = "SELECT id, username, password, isadmin FROM user ORDER BY id";
 				$smt = $pdo->query($sql);
 				//查询所有
 				$rows =$smt->fetchAll(PDO::FETCH_ASSOC);

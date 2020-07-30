@@ -238,8 +238,7 @@
   			</div>
 			
     		<div class="mdui-col">
-      			<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">确认添加</button>
-    		
+      			<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">确认添加</button>	
     		</div>
 			</form>
   		</div>
@@ -338,9 +337,6 @@
   		</div>
     </div>
 			
-			
-			
-	
 				</ul>
 				</div>
 			</div>

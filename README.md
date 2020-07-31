@@ -27,7 +27,7 @@ A Material-Design blog built with PHP and MySQL databases, and it is rendered by
 
 Basic features are implemented, which means that you are able to post article, finish administration and so on. 
 
-虽称不上应有尽有，但基本的功能经已实现，如进行文章浏览与发布、后台管理等功能。
+虽称不上应有尽有，但基本的功能经已实现，如文章浏览与发布、后台管理等功能。
 
 Please feel free to enjoy the blog.
 
@@ -109,11 +109,12 @@ git checkout {branch/tags name}
 
 ## Todo 待实现功能
 
-- [x] Add PHP staticize generation(add at next version) 增加 PHP 静态化生成器（于下一版本发布）
+- [x] Add PHP staticize generation(coming at next version) 增加 PHP 静态化生成器（于下一版本发布）
 - [ ] Add Markdown Editor Markdown 增加 Markdwon 编辑器
 - [ ] Add MDUI color configuration 增加 MDUI 主题切换
+- [ ] Add social comment system 增加 社会化评论系统
 
-## Change Log 更新日志
+## Changelog 更新日志
 
 Please read [change log](https://github.com/Kitcham/Material_Blog/wiki/Change-log) here.
 
@@ -144,6 +145,3 @@ Before you start your contributing, please read the Contributing Rules Wiki firs
 Open sourced under the GPL v3.0 license.
 
 根据 GPL V3.0 许可证开源。
-
----
-Updating...

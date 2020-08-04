@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+	<meta charset="UTF-8">
+	<title>{title}</title>
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/mdui.css"/>
+	<style>
+		html,body{
+			background:#fff!important;
+		}
+		.login,.register{
+			background: #000;
+		}
+	</style>
+</head>
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar  mdui-theme-primary-amber mdui-theme-accent-pink">
+	<!--头部-->
+	<div class="main">
+		<!--头部 end-->
+		<header class="mdui-appbar mdui-appbar-fixed">
+  			<div class="mdui-toolbar mdui-color-theme">
+    			<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}" id="toggle"><i class="mdui-icon material-icons">menu</i></span>
+    			<a href="index.php" class="mdui-typo-headline mdui-hidden-xs">My Blog</a>
+   			 <div class="mdui-toolbar-spacer"></div>
+    		 <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+						
+  						<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+						<form action="selectarticle.php" method="GET" class="searchform">
+  						<input class="search-input" type="text" name="search" placeholder="输入关键字"/>
+						
+						<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">done</i></button>
+  						</form>
+			</div>
+  			</div>
+		</header>
+	<!--头部 end-->
+		
+		<!--文章详情-->
+<div class="mdui-container">
+		
+		
+		<!--头部-->
+	
+		
+		
+		<!--侧边栏 -->
+		<div class="mdui-drawer" id="main-drawer">
+  			<ul class="mdui-list">
+	
+    			<li class="mdui-list-item mdui-ripple">
+      			<i class="mdui-list-item-icon mdui-icon material-icons">email</i>
+				<div class="mdui-list-item-content" onclick="window.open('mailto:xxxxxxxx@localhost.com', '_self')">与我联系</div>
+				</li>
+    
+  			</ul>
+		</div>
+	
+	
+  </div>
+	
+	
+	
+		<!--文章内容-->
+	<div class="mdui-row">
+					<div class='mdui-col-sm-11 mdui-col-md-11'>
+					<div class='mdui-card  mdui-hoverable'>
+							<div class='mdui-card-media'>
+				     			<img src='../img/card.jpg'/>
+								<div class='mdui-card-media-covered'>
+            					<div class='mdui-card-primary'>
+              					<div class='mdui-card-primary-title'>{autho}</div>
+              					<div class='mdui-card-primary-subtitle'>{Author}</div>
+								</div>
+					 			</div>
+							</div>
+							<div class='mdui-card-primary'>
+					 			<div class='mdui-card-primary-title'>{autho}</div>
+					 			<div class='mdui-card-primary-subtitle'>{addtime}</div>
+							</div>
+							<div class='mdui-card-content'>{content}</div>
+							<div class='mdui-card-actions'>
+								<a href = 'articledetails.php?id={$row['id']}'><button class='mdui-btn mdui-ripple'>详情</button>
+					 			<button class='mdui-btn mdui-btn-icon mdui-float-right'><i class='mdui-icon material-icons'>expand_more</i></button></a>
+					 		</div>
+						
+				</br></br></div> 	
+		
+		
+	</div>	
+
+		<!--返回顶部-->
+		
+	<div class="gotop">
+		<button class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple mdui-btn-icon"><i class="mdui-icon material-icons">keyboard_arrow_up</i></button>
+	</div>
+	</div>
+</div>
+<script>
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('../sw.js');
+	}
+</script>
+	
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/mdui.js"></script>
+</html>
